@@ -1,0 +1,62 @@
+.App{
+    max-width: 1620px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.form-search{
+    background-color: var(--background-cards);
+    color: white;
+    width: 100%;
+    max-width: 1000px;
+    height: 45px;;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.input-search{
+    background-color: var(--background-cards);
+    color: white;
+    width: 88%;
+    height: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border-style: none;
+    margin-left: 2%;
+}
+
+.btn-search{
+    background-color: white;
+    color: var(--background-cards);
+    height: 45px;
+    width: 10%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border-style: none;
+    cursor: pointer;
+}
+.picture{
+    width: 100%;
+    height: 372px;
+    margin-bottom: 30px;
+}
+.name-picture{
+    position: absolute;
+    width: 454px;
+    height: 176px;
+    left: 550px;
+    top: 48px;
+}
