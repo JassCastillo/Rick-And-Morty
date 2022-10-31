@@ -6,6 +6,8 @@ import Error from './components/Error';
 import FilterList from './components/FilterList';
 import LocationInfo from './components/LocationInfo';
 import getRandomNumber from './utils/getRandomNumber'
+import Picture from './img/picture.png'
+import Name from './img/name.png'
 
 function App() {
 
@@ -46,8 +48,8 @@ function App() {
 
   return (
     <div className="App">
-      <img className='picture' src='/img/picture.png' alt="" />
-      <img className='name-picture' src="/img/name.png" alt="" />
+      <img className='picture' src={Picture} alt="" />
+      <img className='name-picture' src={Name} alt="" />
       <form className='form-search' onSubmit={handleSubmit}>
         <input
           className='input-search'
