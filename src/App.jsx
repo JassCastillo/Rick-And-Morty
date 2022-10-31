@@ -46,8 +46,8 @@ function App() {
 
   return (
     <div className="App">
-      <img className='picture' src="./public/picture.png" alt="" />
-      <img className='name-picture' src="./public/name.png" alt="" />
+      <img className='picture' src="./img/picture.png" alt="" />
+      <img className='name-picture' src="./img/name.png" alt="" />
       <form className='form-search' onSubmit={handleSubmit}>
         <input
           className='input-search'
